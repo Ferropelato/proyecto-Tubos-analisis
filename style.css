@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: gray;
+    text-align: left;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bg-navbar-propio {
+    background-color: gray;
+}
+
+header img {
+    width: 200px;
+
+}
+
+p {
+    margin: 8px 16px 12px 14px;
+    color: black;
+    padding: 22px;
+}
+
+.btn-propio {
+    color: blue;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: grey;
+}
+
+.d-flex propio {
+    flex-direction: row;
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: rgb(11, 66, 98);
+    font-size: 28px;
+}
+
+main {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(11, 66, 98);
+}
+.h1-productos {
+    padding: 20px;
+    }
+.h2-productos {
+    color: red;
+}
+
+h2 {
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 class {
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+}
+
+h5 {
+    font-size: 20;
+    font-style: italic;
+    color: rgb(11, 66, 98);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+
+}
+
+.social-icons img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.product {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    text-align: center;
+
+}
+
+.producto-img {
+    width: 100;
+
+}
+
+.carousel-item {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: burlywood;
+}
+
+.imagen-carousel {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+    
+
+.importante {
+    font-size: 70;
+    color: rgb(158, 19, 21);
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+
+
+
+.parrafo-servicios {
+    color: grey;
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.caja {
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+    border: 2px solid rgb(11, 66, 98);
+    text-align: center;
+    line-height: 100px;
+}
